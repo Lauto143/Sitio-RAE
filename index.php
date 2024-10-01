@@ -32,15 +32,10 @@ closeConnection();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Agregar Componente</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <h1>Agregar Componente Informático</h1>
-    <form action="add_component.php" method="POST">
-        <label for="name">Nombre del Componente:</label>
-        <input type="text" id="name" name="name" required>
+
         
 
     <title>Gestión de Componentes Informáticos</title>
@@ -77,14 +72,6 @@ closeConnection();
         
         <button type="submit">Agregar</button>
     </form>
-
-            <!-- Añadir más categorías si alguien quiere -->
-        </select>
-
-        <label for="description">Descripción:</label>
-        <textarea id="description" name="description" required></textarea>
-
-        <button type="submit">Agregar</button>
     </form>
 
     <!-- La lista de componentes -->
